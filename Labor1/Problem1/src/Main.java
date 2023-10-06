@@ -6,6 +6,8 @@ public class Main
     {
         int[] noten = {42, 37, 24, 68, 67, 65, 64, 77, 89, 91, 99};
         // Losung 1
+        Losung1.testExpectedCase();
+        Losung1.testUnexpectedCase();
         System.out.print("Problem 1.1: ");
         System.out.println(Arrays.toString(Losung1.solve(noten)));
         // Losung 2
