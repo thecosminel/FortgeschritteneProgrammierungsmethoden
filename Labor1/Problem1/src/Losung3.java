@@ -1,5 +1,9 @@
 public class Losung3
 {
+    /**
+     * @param noten ist eine [] von Noten
+     * @return [] mit abgerundeten Noten
+     */
     static int[] solve(int[] noten)
     {
         for (int i = 0; i < noten.length; i++)
@@ -8,7 +12,8 @@ public class Losung3
             // Calculate the next multiple of 5
             int lastMultipleOf5 = (note / 5) * 5;
             int nextMultipleOf5 = lastMultipleOf5 + 5;
-            if (note >= nextMultipleOf5 - 3) noten[i] = nextMultipleOf5;
+            // If "round" condition is meet, round the note
+            if (note >= 38 && note + 3 >= nextMultipleOf5) noten[i] = nextMultipleOf5;
         }
         return noten;
     }
