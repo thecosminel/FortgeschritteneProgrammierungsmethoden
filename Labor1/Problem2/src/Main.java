@@ -7,6 +7,10 @@ public class Main
         // Losung 1
         result = Losung1.solve(numbers);
         System.out.print("Problem 2.1: ");
-        System.out.println(result);
+        System.out.println(result); // result = 9
+        // Losung 2
+        result = Losung2.solve(numbers);
+        System.out.print("Problem 2.2: ");
+        System.out.println(result); // result = 1
     }
 }
