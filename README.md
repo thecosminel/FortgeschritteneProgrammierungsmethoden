@@ -1,2 +1,2 @@
-# FortgeschritteneProgrammierungsmethoden
+# Fortgeschrittene Programmierungsmethoden
 Fortgeschrittene Programmierungsmethoden Labor
