@@ -16,5 +16,9 @@ public class Main
         result = Losung3.solve(numbers);
         System.out.print("Problem 2.3: ");
         System.out.println(result); // result = 25
+        // Losung 3
+        result = Losung4.solve(numbers);
+        System.out.print("Problem 2.4: ");
+        System.out.println(result); // result = 17
     }
 }
