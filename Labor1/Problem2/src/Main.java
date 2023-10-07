@@ -12,5 +12,9 @@ public class Main
         result = Losung2.solve(numbers);
         System.out.print("Problem 2.2: ");
         System.out.println(result); // result = 1
+        // Losung 3
+        result = Losung3.solve(numbers);
+        System.out.print("Problem 2.3: ");
+        System.out.println(result); // result = 25
     }
 }
