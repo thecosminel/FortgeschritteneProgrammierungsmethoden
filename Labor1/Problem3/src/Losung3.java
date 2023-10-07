@@ -1,7 +1,7 @@
 public class Losung3
 {
     /**
-     * Adds two numbers with the same digits count
+     * Multiplies two numbers
      * @param number1 represented as array - example: 321 = [3, 2, 1]
      * @param number2 integer
      * @return result = number1 * number2

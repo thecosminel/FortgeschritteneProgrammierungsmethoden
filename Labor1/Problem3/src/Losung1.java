@@ -26,7 +26,7 @@ public class Losung1
         {
             // The result has one digit more than the numbers given
             int [] result = new int[number1.length + 1];
-            // number1 = [a, b, c] ---> result-* = [1, a, b, c]
+            // number1 = [a, b, c] ---> result = [1, a, b, c]
             System.arraycopy(number1, 0, result, 1, number1.length);
             result[0] = addToNextDigit;
             return result;
