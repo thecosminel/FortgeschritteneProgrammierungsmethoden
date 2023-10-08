@@ -24,6 +24,6 @@ public class Main
         budget = 60;
         result = Losung4.solve(keyboard_prices, usb_prices, budget);
         System.out.print("Problem 4.3: ");
-        System.out.println(result); // result = 58
+        System.out.println(result); // result = 48
     }
 }
