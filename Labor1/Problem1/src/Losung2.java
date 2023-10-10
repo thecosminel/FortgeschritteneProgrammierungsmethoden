@@ -1,5 +1,9 @@
 public class Losung2
 {
+    /**
+     * @param noten ist eine [] von Noten
+     * @return Durchschnittswert der Noten
+     */
     static int solve(int [] noten)
     {
         int average = 0;
@@ -7,7 +11,8 @@ public class Losung2
         {
             average += note;
         }
-        return average / noten.length;
+        average = average / noten.length;
+        return average;
     }
 
     public static void testExpectedCase()
