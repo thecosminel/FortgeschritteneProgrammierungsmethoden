@@ -9,7 +9,7 @@ class Losung3Test
     {
         int [] notes =          {13, 37, 68, 81, 83};
         int [] expectedNotes =  {13, 37, 70, 81, 85};
-        int [] solutions = Losung3.solve(notes);
+        int [] solutions = Losung3_roundAllGrades.solve(notes);
         // Check notes == expectedNotes
         for (int i = 0; i < notes.length; i++)
         {
@@ -22,7 +22,7 @@ class Losung3Test
     {
         int [] notes =          {13, 37, 68, 81, 83};
         int [] expectedNotes =  {15, 40, 68, 85, 80};
-        int [] solutions = Losung3.solve(notes);
+        int [] solutions = Losung3_roundAllGrades.solve(notes);
         // Check notes != expectedNotes
         for (int i = 0; i < notes.length; i++)
         {
